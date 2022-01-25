@@ -7,4 +7,10 @@ public class aluno extends instituição{
         this.periodo = periodo;
     }
     
+    @Override
+    public String toString() {
+        return  "Você está matriculado no "+periodo+" de curso "+curso+".";
+    }
+    
+    
    }

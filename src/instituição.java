@@ -5,8 +5,13 @@ public class instituição{
     this.usuario = usuario;
     this.idade = idade;
   }
-  private String nome;
-   private String usuario;
+  protected String nome;
+   protected String usuario;
     int idade;
+
+    @Override
+    public String toString() {
+      return "Olá " + nome + " seja bem vindo /n";
+    }
     
   }

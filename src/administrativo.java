@@ -11,9 +11,13 @@ public class administrativo  extends funcionario{
 
 
     @Override
-    public void calculasalario() {
-        // TODO Auto-generated method stub
-        
+    public double calculasalario(double valorhora) {
+        super.salario = super.calculasalario(this.valorhora)  + (super.valorhora*0.1); 
+        return super.salario;
     }
+
+
+
+   
 
 }
