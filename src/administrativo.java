@@ -1,10 +1,8 @@
 public class administrativo  extends funcionario{
     String funcao;
 
-
-
-    public administrativo(String nome, String usuario, int idade, double valorhora, double salario, String funcao) {
-        super(nome, usuario, idade, valorhora, salario);
+    public administrativo(String nome, String usuario, int idade, double valorhora, String funcao) {
+        super(nome, usuario, idade, valorhora);
         this.funcao = funcao;
     }
 

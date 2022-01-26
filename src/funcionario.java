@@ -1,9 +1,9 @@
 public class funcionario extends instituição {
 
-    public funcionario(String nome, String usuario, int idade, double valorhora, double salario) {
+    public funcionario(String nome, String usuario, int idade, double valorhora) {
         super(nome, usuario, idade);
         this.valorhora = valorhora;
-        this.salario = salario;
+        
     }
 
     double valorhora;

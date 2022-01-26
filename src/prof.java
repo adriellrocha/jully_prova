@@ -1,7 +1,8 @@
 public class prof extends funcionario{
     
-    public prof(String nome, String usuario, int idade, double valorhora, double salario, int numerodisciplina) {
-        super(nome, usuario, idade, valorhora, salario);
+    
+    public prof(String nome, String usuario, int idade, double valorhora, int numerodisciplina) {
+        super(nome, usuario, idade, valorhora);
         this.numerodisciplina = numerodisciplina;
     }
 
