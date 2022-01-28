@@ -16,6 +16,13 @@ public class administrativo  extends funcionario{
 
 
 
+    @Override
+    public String toString() {
+        return "Você possui carga horária semanal de 30 , carga horária mensal de "+30*4 +" e sua função é "+funcao+".";
+    }
+
+
+
    
 
 }

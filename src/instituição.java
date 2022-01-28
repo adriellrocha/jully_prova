@@ -9,9 +9,6 @@ public class instituição{
    protected String usuario;
     int idade;
 
-    @Override
-    public String toString() {
-      return "Olá " + nome + " seja bem vindo /n";
-    }
+    
     
   }
